@@ -1,0 +1,41 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<input #appBackgroundChooser type="file" accept="image/*" (change)="handleBackgroundFile(appBackgroundChooser.files)">
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start (click)="openBackgroundChooser()">
+      <button ion-button icon-only color="primary">
+        <ion-icon name="image"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-title>Weddings Tasmania</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only color="primary">
+        <ion-icon name="settings"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <div class="home-content" ion-fixed>
+
+    <app-home-info></app-home-info>
+
+    <app-home-next-task></app-home-next-task>
+
+  </div>
+
+</ion-content>

@@ -1,0 +1,13 @@
+{
+  "name": "Weddings Tasmania",
+  "short_name": "Weddings Tas",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/imgs/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#fd0000",
+  "theme_color": "#fd0000"
+}

@@ -1,0 +1,17 @@
+page-tabs {
+
+  position: relative;
+
+  #app-image {
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+
+    filter: blur(2px);
+    object-fit: cover;
+    object-position: center;
+  }
+
+}

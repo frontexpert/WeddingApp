@@ -1,0 +1,47 @@
+app-bubble {
+
+  display: block;
+
+  .bubble-header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: color($colors, bubble-primary, base);
+    border-radius: $app-dimen-default $app-dimen-default 0 0;
+
+    padding: 0 $app-dimen-default;
+    height: 32px;
+
+    ion-icon {
+
+      padding-right: $app-dimen-default;
+
+    }
+
+    .bubble-title {
+
+      display: flex;
+      flex: 1;
+
+    }
+
+  }
+
+  .bubble-content {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: color($colors, bubble-secondary, base);
+    border-radius: 0 0 $app-dimen-default $app-dimen-default;
+
+    padding: $app-dimen-default;
+
+  }
+
+}
+

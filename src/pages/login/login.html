@@ -1,0 +1,25 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <input title="Login" type="text" [(ngModel)]="loginValue">
+  <input title="Email" type="email" [(ngModel)]="emailValue">
+  <input title="Password" type="password" [(ngModel)]="passValue">
+
+  <button (click)="submitCreate()">Register</button>
+
+  <hr>
+
+  <input title="Login" type="text" [(ngModel)]="loginValue">
+  <input title="Email" type="password" [(ngModel)]="passValue">
+
+  <button (click)="submitLogin()">Login</button>
+
+</ion-content>

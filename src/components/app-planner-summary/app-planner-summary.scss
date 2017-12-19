@@ -1,0 +1,29 @@
+app-planner-summary {
+
+  app-bubble {
+
+    width: 100%;
+
+  }
+
+  .planner-summary-text {
+
+    p, h5 {
+
+      margin: 0;
+
+    }
+
+    h5 {
+
+      color: color($colors, primary, base);
+      background: color($colors, bubble-secondary, base);
+
+      border-radius: $app-dimen-default;
+      padding: $app-dimen-default;
+
+    }
+
+  }
+
+}
